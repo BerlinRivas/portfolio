@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import Typed from 'react-typed';
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
 import picture from "../image/logo.png";
 import InvestScreen from "../assets/screenshotInvesting.png";
 import YouTubeScreen from "../assets/youtubescreen.png"
+
 
 export default function Home() {
     const [menuActive, setMenuActive] = useState('');
@@ -16,6 +16,10 @@ export default function Home() {
     const [isModalOpenFullStack, setIsModalOpenFullStack] = useState(false);
     const [isModalOpenFrontend, setIsModalOpenFrontend] = useState(false);
     const [isModalOpenBackend, setIsModalOpenBackend] = useState(false);
+    // const words = ['Developer', 'Designer', 'Freelancer'];
+    // const [currentWord, setCurrentWord] = useState(0);
+    // const words = ['Developer', 'Designer', 'Freelancer'];
+    
 
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
@@ -124,7 +128,7 @@ export default function Home() {
                             <Link to="#portfolio" class={`menu_link ${activeLink === 'portfolio' ? 'active-link' : ''}`} onClick={(e) => { e.preventDefault(); scrollToSection('portfolio'); }} ref={(el) => menuLinksRef.current.push(el)}>Portfolio</Link>
                         </li>
                         <li class="menu_item">
-                            <Link to="#services" class={`menu_link ${activeLink === 'services' ? 'active-link' : ''}`} onClick={(e) => { e.preventDefault(); scrollToSection('services'); }} ref={(el) => menuLinksRef.current.push(el)}>Services</Link>
+                            {/* <Link to="#services" class={`menu_link ${activeLink === 'services' ? 'active-link' : ''}`} onClick={(e) => { e.preventDefault(); scrollToSection('services'); }} ref={(el) => menuLinksRef.current.push(el)}>Services</Link> */}
                         </li>
                         <li class="menu_item">
                             <Link to="#contact" class={`menu_link ${activeLink === 'contact' ? 'active-link' : ''}`} onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }} ref={(el) => menuLinksRef.current.push(el)}>Contact</Link>
@@ -136,33 +140,34 @@ export default function Home() {
             </header>
 
             <main>
-                <section class="hero section" id="hero">
-                    <div class="hero_container container grid">
-                        <div class="hero_content">
-                            <h4>hi there, </h4>
-                            <h1>I'm a
-                                <Typed
-                                    strings={['&nbsp;Developer', '&nbsp;Designer', '&nbsp;Freelancer']}
-                                    typeSpeed={100}
-                                    backSpeed={50}
-                                    backDelay={2000}
-                                    loop
-                                    class="typed"
-                                />
-                            </h1>
-                            <p>
-                                I'm a creative designer based in New Jersey, and I'm very passionate and dedicated to my work 
-                            </p>
-                            <div class="hero_social">
-                                <a href="https://www.linkedin.com/in/berlinrivas/"><ion-icon name="logo-linkedin"></ion-icon></a>
-                                <a href="https://github.com/BerlinRivas"><ion-icon name="logo-github"></ion-icon></a>
-                            </div>
-                        </div>
-                        <div class="hero_img">
-                            <img src="https://cdn3d.iconscout.com/3d/premium/thumb/online-seller-listing-product-for-sale-7129320-5791991.png?f=webp" alt="" class="img-fluid"></img>
-                        </div>
-                    </div>
-                </section>
+            <section className="hero section" id="hero">
+      <div className="hero_container container grid">
+        <div className="hero_content">
+          <h4>hi there, </h4>
+          <h1>
+            I'm a Developer
+          </h1>
+          <p>
+            I'm a creative designer based in New Jersey, and I'm very passionate and dedicated to my work
+          </p>
+          <div className="hero_social">
+            <a href="https://www.linkedin.com/in/berlinrivas/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://github.com/BerlinRivas">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div className="hero_img">
+          <img
+            src="https://cdn3d.iconscout.com/3d/premium/thumb/online-seller-listing-product-for-sale-7129320-5791991.png?f=webp"
+            alt=""
+            className="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
                 <section class="about section" id="about">
                     <h2 class="section_title">About Me</h2>
                     <div class="about_container container grid">
@@ -397,7 +402,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <section class="services section" id="services">
+                {/* <section class="services section" id="services">
                     <h2 class="section_title">Services</h2>
 
                     <div class="services_container container grid">
@@ -514,7 +519,7 @@ export default function Home() {
                              )}
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section class="contact section" id="contact">
                     <h2 class="section_title">Contact Me</h2>
                     <div class="contact_container container">

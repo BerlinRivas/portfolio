@@ -546,7 +546,7 @@ export default function Home() {
                                 <a href="https://www.linkedin.com/in/berlinrivas/"><ion-icon name="logo-linkedin"></ion-icon></a>
                             </div>
                             <h3>B.I.R</h3>
-                            <p>Explore my B.I.R. portfolio showcasing full-stack, front-end, and backend expertise. 
+                            <p clas="footer_txt">Explore my B.I.R. portfolio showcasing full-stack, front-end, and backend expertise. 
                                 Elevate projects with value-driven solutions as a software engineer</p>
                         </div>
                         <div class="footer_copy">&#169; B.I.R. All right reserved</div>

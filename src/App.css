@@ -949,7 +949,6 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    color: #fff
 }
 .footer_social {
     display: flex;
@@ -973,5 +972,4 @@ textarea:focus {
 }
 .footer_copy {
     padding: 20px 0;
-    color: #dbdbdb;
 }

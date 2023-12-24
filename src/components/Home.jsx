@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import picture from "../image/logo.png";
 import InvestScreen from "../assets/screenshotInvesting.png";
 import YouTubeScreen from "../assets/youtubescreen.png"
+import Pathfinder from '../assets/pathfinder.png'
 
 
 export default function Home() {
@@ -354,6 +355,19 @@ export default function Home() {
                                             <div class="portfolio_links">
                                                 {/* <a href="#"><ion-icon name="add-outline"></ion-icon></a> */}
                                                 <a href="https://astonishing-pie-b8a904.netlify.app"><ion-icon name="link-outline"></ion-icon></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio_item filter-web-two">
+                                    <div class="portfolio_wrap">
+                                        <img src={Pathfinder} alt="" class="img-fluid"></img>
+                                        <div class="portfolio_info">
+                                            <h4>Pathfinder (Capstone Project)</h4>
+                                            <p>Website #3</p>
+                                            <div class="portfolio_links">
+                                                {/* <a href="#"><ion-icon name="add-outline"></ion-icon></a> */}
+                                                <a href="https://pathfinder-game.netlify.app/"><ion-icon name="link-outline"></ion-icon></a>
                                             </div>
                                         </div>
                                     </div>

@@ -339,9 +339,9 @@ export default function Home() {
                                 <img src={InvestScreen} alt="" class="img-fluid"></img>
                                     <div class="portfolio_info">
                                         <h4>CoinHub</h4>
-                                        <p>Website #1</p>
+                                        <p>Coming Soon...</p>
                                         <div class="portfolio_links">
-                                            <a href="*"><ion-icon name="link-outline"></ion-icon></a>
+                                            {/* <a href="*"><ion-icon name="link-outline"></ion-icon></a> */}
                                         </div>
                                     </div>
                                 </div>

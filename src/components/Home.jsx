@@ -354,7 +354,7 @@ export default function Home() {
                                             <p>Website #2</p>
                                             <div class="portfolio_links">
                                                 {/* <a href="#"><ion-icon name="add-outline"></ion-icon></a> */}
-                                                <a href="https://astonishing-pie-b8a904.netlify.app"><ion-icon name="link-outline"></ion-icon></a>
+                                                <a href="https://youtubeclonepursuit.netlify.app/"><ion-icon name="link-outline"></ion-icon></a>
                                             </div>
                                         </div>
                                     </div>

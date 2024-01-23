@@ -339,9 +339,10 @@ export default function Home() {
                                 <img src={InvestScreen} alt="" class="img-fluid"></img>
                                     <div class="portfolio_info">
                                         <h4>CoinHub</h4>
-                                        <p>Coming Soon...</p>
+                                        <p>Website #1</p>
                                         <div class="portfolio_links">
                                             {/* <a href="*"><ion-icon name="link-outline"></ion-icon></a> */}
+                                            <a href="https://main--coinhub1.netlify.app/"><ion-icon name="link-outline"></ion-icon></a>
                                         </div>
                                     </div>
                                 </div>

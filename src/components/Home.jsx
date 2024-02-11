@@ -146,10 +146,10 @@ export default function Home() {
         <div className="hero_content">
           <h4>hi there, </h4>
           <h1>
-            I'm a Developer
+            I'm Berlin I. Rivas
           </h1>
           <p>
-            I'm a creative designer based in New Jersey, and I'm very passionate and dedicated to my work
+            I'm a creative developer based in New Jersey, and I'm very passionate and dedicated to web development
           </p>
           <div className="hero_social">
             <a href="https://www.linkedin.com/in/berlinrivas/">

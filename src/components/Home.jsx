@@ -68,7 +68,7 @@ export default function Home() {
         iconCloseRef.current.addEventListener('click', handleCloseClick);
 
         return () => {
-            iconToggleRef.current.removeEventListener('click', handleToggleClick);
+            iconToggleRef.current.removeEventListener('click', handleToggleClick)
             iconCloseRef.current.removeEventListener('click', handleCloseClick);
         };
     }, [menuActive]);
@@ -223,7 +223,7 @@ export default function Home() {
                                         <ion-icon name="school-outline"></ion-icon>
                                     </div>
                                     <div class="resume_wrap-content">
-                                        <span class="date">2023-2025</span>
+                                        <span class="date">Fall 2023- Fall 2024</span>
                                         <h4>Computer Science (Cybersecurity Option) A.S.</h4>
                                         <span class="position">Hudson County Community College</span>
                                         <p>
@@ -236,7 +236,7 @@ export default function Home() {
                                         <ion-icon name="school-outline"></ion-icon>
                                     </div>
                                     <div class="resume_wrap-content">
-                                        <span class="date">2022-2023</span>
+                                        <span class="date">Dec 2022- Jan 2023</span>
                                         <h4>Certificate in Software Engineering</h4>
                                         <span class="position">Pursuit</span>
                                         <p>
@@ -252,11 +252,11 @@ export default function Home() {
                                         <ion-icon name="briefcase-outline"></ion-icon>
                                     </div>
                                     <div class="resume_wrap-content">
-                                        <span class="date">Dec 2023-present</span>
-                                        <h4>Overnight Inbound (Stocking)</h4>
-                                        <span class="position">Target</span>
+                                        <span class="date">Feb 2024-present</span>
+                                        <h4>Unarmed Security Guard</h4>
+                                        <span class="position">Prime Security Services</span>
                                         <p>
-                                            Efficiently receive and unload merchandise shipments during overnight hours, ensuring timely and accurate processing of incoming inventory. Collaborate with team members to organize and stock merchandise on shelves, maintaining a neat and well-organized store layout for optimal customer shopping experience. Utilize inventory management systems to track and document received products, contributing to accurate stock levels and minimizing discrepancies in the inventory system.
+                                        I was responsible for registering visitor names at a residential building, overseeing visitor parking arrangements, and meticulously documenting building activities every hour in the logbook.
                                         </p>
                                     </div>
                                 </div>
@@ -561,7 +561,7 @@ export default function Home() {
                                 <a href="https://www.linkedin.com/in/berlinrivas/"><ion-icon name="logo-linkedin"></ion-icon></a>
                             </div>
                             <h3>B.I.R</h3>
-                            <p clas="footer_txt">Explore my B.I.R. portfolio showcasing full-stack, front-end, and backend expertise. 
+                            <p clas="footer_txt">Explore my portfolio showcasing full-stack, front-end, and backend expertise. 
                                 Elevate projects with value-driven solutions as a software engineer</p>
                         </div>
                         <div class="footer_copy">&#169; B.I.R. All right reserved</div>

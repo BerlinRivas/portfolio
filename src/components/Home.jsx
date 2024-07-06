@@ -223,7 +223,7 @@ export default function Home() {
                                         <ion-icon name="school-outline"></ion-icon>
                                     </div>
                                     <div class="resume_wrap-content">
-                                        <span class="date">Fall 2023- Fall 2024</span>
+                                        <span class="date">Fall 2023 - Spring 2025</span>
                                         <h4>Computer Science (Cybersecurity Option) A.S.</h4>
                                         <span class="position">Hudson County Community College</span>
                                         <p>
@@ -236,7 +236,7 @@ export default function Home() {
                                         <ion-icon name="school-outline"></ion-icon>
                                     </div>
                                     <div class="resume_wrap-content">
-                                        <span class="date">Dec 2022- Jan 2023</span>
+                                        <span class="date">Dec 2022 - Jan 2024</span>
                                         <h4>Certificate in Software Engineering</h4>
                                         <span class="position">Pursuit</span>
                                         <p>
@@ -252,7 +252,7 @@ export default function Home() {
                                         <ion-icon name="briefcase-outline"></ion-icon>
                                     </div>
                                     <div class="resume_wrap-content">
-                                        <span class="date">Feb 2024-present</span>
+                                        <span class="date">Feb 2024 - present</span>
                                         <h4>Unarmed Security Guard</h4>
                                         <span class="position">Prime Security Services</span>
                                         <p>
@@ -260,7 +260,7 @@ export default function Home() {
                                         </p>
                                     </div>
                                 </div>
-                                <div class="resume_wrap">
+                                {/* <div class="resume_wrap">
                                     <div class="resume_wrap-icon">
                                         <ion-icon name="briefcase-outline"></ion-icon>
                                     </div>
@@ -272,7 +272,7 @@ export default function Home() {
                                             Ensured optimal cleanliness of dishes and utensils, maintaining a high standard of sanitation. Performed meticulous mopping and sweeping duties throughout the facility, including offices, bathrooms, and the main customer area, to create a clean and welcoming environment. Expanded skill set by actively participating in pastry preparation and packing for distribution to other Choc O Pain stores in New York City.
                                         </p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div id="page-3" class="page three">
                                 <div class="page_heading">Skills</div>
@@ -295,6 +295,7 @@ export default function Home() {
                                             <div class="progress_bar" style={{ width: "93%"}}></div>
                                         </div>
                                     </div>
+                                    
                                     <div class="progressBox">
                                         <div class="progress_name">
                                             <span>JavaScript</span>
@@ -321,6 +322,62 @@ export default function Home() {
                                         <div class="progress">
                                             <div class="progress_bar" style={{width: "91%"}}></div>
                                         </div>
+                                        {/* New Line inserted start */}
+
+                                        <div class="progressBox">
+                                        <div class="progress_name">
+                                            <span>Java</span>
+                                            <span> 95%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style={{ width: ' 95%' }}></div>
+                                        </div>
+                                    </div>
+
+                                    {/* ------------- */}
+
+                                    <div class="progressBox">
+                                        <div class="progress_name">
+                                            <span>C++</span>
+                                            <span> 92%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style={{ width: ' 92%' }}></div>
+                                        </div>
+                                    </div>
+
+                                    {/* ---------------- */}
+
+                                    <div class="progressBox">
+                                        <div class="progress_name">
+                                            <span>Python</span>
+                                            <span> 87%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style={{ width: ' 87%' }}></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progressBox">
+                                        <div class="progress_name">
+                                            <span>VMWare</span>
+                                            <span> 82%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style={{ width: "82%"}}></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progressBox">
+                                        <div class="progress_name">
+                                            <span>Linux</span>
+                                            <span> 88%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style={{ width: "88%"}}></div>
+                                        </div>
+                                    </div>
+                                        {/* New Line insterted end */}
                                     </div>
                                 </div>
                             </div>
@@ -334,7 +391,7 @@ export default function Home() {
                         <ul class="portfolio_filters">
                         </ul>
                         <div class="portfolio_wrap-container">
-                            <div class="portfolio_item filter-web">
+                            <div class="portfolio_item filter-web"> 
                                 <div class="portfolio_wrap">
                                 <img src={InvestScreen} alt="" class="img-fluid"></img>
                                     <div class="portfolio_info">

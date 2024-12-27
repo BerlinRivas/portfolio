@@ -251,12 +251,27 @@ export default function Home() {
                                     <div class="resume_wrap-icon">
                                         <ion-icon name="briefcase-outline"></ion-icon>
                                     </div>
+                                  
                                     <div class="resume_wrap-content">
                                         <span class="date">Feb 2024 - present</span>
                                         <h4>Unarmed Security Guard</h4>
                                         <span class="position">Prime Security Services</span>
                                         <p>
                                         I was responsible for registering visitor names at a residential building, overseeing visitor parking arrangements, and meticulously documenting building activities every hour in the logbook.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="resume_wrap">
+                                    <div class="resume_wrap-icon">
+                                        <ion-icon name="briefcase-outline"></ion-icon>
+                                    </div>
+                                  
+                                    <div class="resume_wrap-content">
+                                        <span class="date">Sep 2024 - present</span>
+                                        <h4>Web Administrator</h4>
+                                        <span class="position">Hudson County Community</span>
+                                        <p>
+                                        I was responsible for managing and updating web content, monitoring site functionality and security, and assisting in resolving technical issues to ensure seamless user experiences.
                                         </p>
                                     </div>
                                 </div>

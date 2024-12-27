@@ -247,7 +247,7 @@ export default function Home() {
                             </div>
                             <div id="page-2" class="page two">
                                 <div class="page_heading">Experience</div>
-                                <div class="resume_wrap">
+                                {/* <div class="resume_wrap">
                                     <div class="resume_wrap-icon">
                                         <ion-icon name="briefcase-outline"></ion-icon>
                                     </div>
@@ -260,7 +260,7 @@ export default function Home() {
                                         I was responsible for registering visitor names at a residential building, overseeing visitor parking arrangements, and meticulously documenting building activities every hour in the logbook.
                                         </p>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div class="resume_wrap">
                                     <div class="resume_wrap-icon">
                                         <ion-icon name="briefcase-outline"></ion-icon>

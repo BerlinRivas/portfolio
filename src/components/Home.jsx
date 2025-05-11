@@ -219,7 +219,7 @@ export default function Home() {
     <div id="page-1" class="page one">
         <div class="page_heading">Education</div>
 
-        <!-- WGU -->
+
         <div class="resume_wrap">
             <div class="resume_wrap-icon">
                 <ion-icon name="school-outline"></ion-icon>
@@ -234,7 +234,7 @@ export default function Home() {
             </div>
         </div>
 
-        <!-- HCCC -->
+
         <div class="resume_wrap">
             <div class="resume_wrap-icon">
                 <ion-icon name="school-outline"></ion-icon>
@@ -249,7 +249,7 @@ export default function Home() {
             </div>
         </div>
 
-        <!-- Pursuit -->
+
         <div class="resume_wrap">
             <div class="resume_wrap-icon">
                 <ion-icon name="school-outline"></ion-icon>

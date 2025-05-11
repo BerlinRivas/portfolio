@@ -215,52 +215,57 @@ export default function Home() {
                                 </li>
                             </ul>
                         </div>
-                        <div class="resume_content">
-                            <div id="page-1" class="page one">
-                                <div class="page_heading">Education</div>
-                                <div class="resume_wrap">
-                                    <div class="resume_wrap-icon">
-                                        <ion-icon name="school-outline"></ion-icon>
-                                    </div>
-                                    /* 
-                                    <div class="resume_wrap">
-                                    <div class="resume_wrap-icon">
-                                        <ion-icon name="school-outline"></ion-icon>
-                                    </div>
-                                    <div class="resume_wrap-content">
-                                        <span class="date">June 2025 - Dec 2025</span>
-                                        <h4>B.S. in Network Engineering and Security</h4>
-                                        <span class="position">Western Governors University</span>
-                                        <p>
-                                            My academic journey, centered on earning a BS in Network Engineering and Security at WGU, has been vital in shaping my path in cybersecurity. Through immersive coursework and practical labs, I’ve sharpened my networking and security skills, building a strong foundation that fuels my passion for defending digital infrastructure.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                                */
-                                    <div class="resume_wrap-content">
-                                        <span class="date">Fall 2023 - Spring 2025</span>
-                                        <h4>Computer Science (Cybersecurity Option) A.S.</h4>
-                                        <span class="position">Hudson County Community College</span>
-                                        <p>
-                                            My pursuit of knowledge in the dynamic realm of cybersecurity, coupled with my current collegiate endeavors, defines a transformative journey toward becoming a cybersecurity professional. Engaging in rigorous academic exploration, I navigate the complexities of this ever-evolving field, leveraging coursework and hands-on experiences to sharpen my skills. This educational odyssey lays a solid groundwork, propelling my aspirations to contribute meaningfully to the realm of cybersecurity through innovative and effective solutions.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="resume_wrap">
-                                    <div class="resume_wrap-icon">
-                                        <ion-icon name="school-outline"></ion-icon>
-                                    </div>
-                                    <div class="resume_wrap-content">
-                                        <span class="date">Dec 2022 - Jan 2024</span>
-                                        <h4>Certificate in Software Engineering</h4>
-                                        <span class="position">Pursuit</span>
-                                        <p>
-                                            My academic journey, marked by attending Pursuit for Computer Science, has been instrumental in shaping my path as a software engineer. Fueled by engaging coursework and hands-on experiences, I've honed my analytical and coding skills, laying a robust foundation that continues to drive my passion for innovative software solutions.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                      <div class="resume_content">
+    <div id="page-1" class="page one">
+        <div class="page_heading">Education</div>
+
+        <!-- WGU -->
+        <div class="resume_wrap">
+            <div class="resume_wrap-icon">
+                <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="resume_wrap-content">
+                <span class="date">June 2025 - Dec 2025</span>
+                <h4>B.S. in Network Engineering and Security</h4>
+                <span class="position">Western Governors University</span>
+                <p>
+                    Pursuing a B.S. in Network Engineering and Security at WGU has been instrumental in advancing my knowledge of cybersecurity. Through immersive coursework and hands-on labs, I've developed a solid foundation in networking and security concepts, fueling my commitment to safeguarding digital systems.
+                </p>
+            </div>
+        </div>
+
+        <!-- HCCC -->
+        <div class="resume_wrap">
+            <div class="resume_wrap-icon">
+                <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="resume_wrap-content">
+                <span class="date">Fall 2023 - Spring 2025</span>
+                <h4>A.S. in Computer Science (Cybersecurity Option)</h4>
+                <span class="position">Hudson County Community College</span>
+                <p>
+                    This degree program has allowed me to explore the evolving field of cybersecurity through both academic study and hands-on practice. The rigorous curriculum has helped me develop strong technical and analytical skills, forming a strong base for a future career in cybersecurity.
+                </p>
+            </div>
+        </div>
+
+        <!-- Pursuit -->
+        <div class="resume_wrap">
+            <div class="resume_wrap-icon">
+                <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="resume_wrap-content">
+                <span class="date">Dec 2022 - Jan 2024</span>
+                <h4>Certificate in Software Engineering</h4>
+                <span class="position">Pursuit</span>
+                <p>
+                    At Pursuit, I engaged in an intensive software engineering program that emphasized real-world projects and collaborative development. This experience refined my programming and problem-solving abilities, further supporting my technical growth and interest in building impactful software solutions.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
                             <div id="page-2" class="page two">
                                 <div class="page_heading">Experience</div>
                                 {/* <div class="resume_wrap">

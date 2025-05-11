@@ -222,6 +222,22 @@ export default function Home() {
                                     <div class="resume_wrap-icon">
                                         <ion-icon name="school-outline"></ion-icon>
                                     </div>
+                                    /* 
+                                    <div class="resume_wrap">
+                                    <div class="resume_wrap-icon">
+                                        <ion-icon name="school-outline"></ion-icon>
+                                    </div>
+                                    <div class="resume_wrap-content">
+                                        <span class="date">June 2025 - Dec 2025</span>
+                                        <h4>B.S. in Network Engineering and Security</h4>
+                                        <span class="position">Western Governors University</span>
+                                        <p>
+                                            My academic journey, centered on earning a BS in Network Engineering and Security at WGU, has been vital in shaping my path in cybersecurity. Through immersive coursework and practical labs, I’ve sharpened my networking and security skills, building a strong foundation that fuels my passion for defending digital infrastructure.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                */
                                     <div class="resume_wrap-content">
                                         <span class="date">Fall 2023 - Spring 2025</span>
                                         <h4>Computer Science (Cybersecurity Option) A.S.</h4>

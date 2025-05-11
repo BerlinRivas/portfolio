@@ -221,49 +221,44 @@ export default function Home() {
 
 
         <div class="resume_wrap">
-            <div class="resume_wrap-icon">
-                <ion-icon name="school-outline"></ion-icon>
-            </div>
-            <div class="resume_wrap-content">
-                <span class="date">June 2025 - Dec 2025</span>
-                <h4>B.S. in Network Engineering and Security</h4>
-                <span class="position">Western Governors University</span>
-                <p>
-                    Pursuing a B.S. in Network Engineering and Security at WGU has been instrumental in advancing my knowledge of cybersecurity. Through immersive coursework and hands-on labs, I've developed a solid foundation in networking and security concepts, fueling my commitment to safeguarding digital systems.
-                </p>
-            </div>
-        </div>
+    <div class="resume_wrap-icon">
+        <ion-icon name="school-outline"></ion-icon>
+    </div>
+    <div class="resume_wrap-content">
+        <span class="date">June 2025 – Dec 2025</span>
+        <h4>B.S. in Network Engineering and Security</h4>
+        <span class="position">Western Governors University</span>
+        <p>
+            I am currently pursuing a Bachelor of Science in Network Engineering and Security at WGU, where I’m gaining in-depth knowledge of cybersecurity through immersive coursework and hands-on labs. This program is helping me build a strong foundation in network infrastructure and security best practices.
+        </p>
+    </div>
+</div>
 
+<div class="resume_wrap">
+    <div class="resume_wrap-icon">
+        <ion-icon name="school-outline"></ion-icon>
+    </div>
+    <div class="resume_wrap-content">
+        <span class="date">Fall 2023 – Spring 2025</span>
+        <h4>A.S. in Computer Science (Cybersecurity Option)</h4>
+        <span class="position">Hudson County Community College</span>
+        <p>
+            This associate degree has provided both theoretical and hands-on experience in cybersecurity. Through coursework and labs, I developed strong technical and analytical skills, laying the groundwork for a career focused on protecting digital infrastructure.
+        </p>
+    </div>
+</div>
 
-        <div class="resume_wrap">
-            <div class="resume_wrap-icon">
-                <ion-icon name="school-outline"></ion-icon>
-            </div>
-            <div class="resume_wrap-content">
-                <span class="date">Fall 2023 - Spring 2025</span>
-                <h4>A.S. in Computer Science (Cybersecurity Option)</h4>
-                <span class="position">Hudson County Community College</span>
-                <p>
-                    This degree program has allowed me to explore the evolving field of cybersecurity through both academic study and hands-on practice. The rigorous curriculum has helped me develop strong technical and analytical skills, forming a strong base for a future career in cybersecurity.
-                </p>
-            </div>
-        </div>
-
-
-        <div class="resume_wrap">
-            <div class="resume_wrap-icon">
-                <ion-icon name="school-outline"></ion-icon>
-            </div>
-            <div class="resume_wrap-content">
-                <span class="date">Dec 2022 - Jan 2024</span>
-                <h4>Certificate in Software Engineering</h4>
-                <span class="position">Pursuit</span>
-                <p>
-                    At Pursuit, I engaged in an intensive software engineering program that emphasized real-world projects and collaborative development. This experience refined my programming and problem-solving abilities, further supporting my technical growth and interest in building impactful software solutions.
-                </p>
-            </div>
-        </div>
-
+<div class="resume_wrap">
+    <div class="resume_wrap-icon">
+        <ion-icon name="school-outline"></ion-icon>
+    </div>
+    <div class="resume_wrap-content">
+        <span class="date">Dec 2022 – Jan 2024</span>
+        <h4>Certificate in Software Engineering</h4>
+        <span class="position">Pursuit</span>
+        <p>
+            At Pursuit, I completed an intensive software engineering program focused on real-world application development, teamwork, and agile methodologies. This experience sharpened my programming skills and deepened my understanding of building effective, user-focused software solutions.
+        </p>
     </div>
 </div>
                             <div id="page-2" class="page two">
